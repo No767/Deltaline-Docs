@@ -1,0 +1,9 @@
+site_name: Project Deltaline Docs
+theme: readthedocs
+nav: 
+  - Home: index.md
+  - Contributing: 
+    - 'Contributing': 'Contributing.md'
+  - About: 
+    - 'About Project Deltaline': 'About Project Deltaline.md'
+    - 'Art Assets': 'Art Assets.md'
