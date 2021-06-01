@@ -6,10 +6,10 @@ Welcome to the Project Delatline Documentation. This serves as the offical docum
 
 ### Contributing
 
-- Contributing (add link)
+- [Contributing](https://no767.github.io/Project-Deltaline-Docs/Contributing/)
 
 ### About 
 
-- About Project Delatline
+- [About Project Deltaline](https://no767.github.io/Project-Deltaline-Docs/About%20Project%20Deltaline/)
 
-- Art Assets
+- [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
