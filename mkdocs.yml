@@ -1,5 +1,6 @@
 site_name: Project Deltaline Docs
 theme: readthedocs
+repo_url: https://github.com/No767/Project-Deltaline-Docs
 nav: 
   - Home: index.md
   - Contributing: 
