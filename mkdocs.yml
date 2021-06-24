@@ -1,6 +1,38 @@
-site_name: Project Deltaline Docs
-theme: readthedocs
+site_name: Deltaline Docs
+theme:
+  name: material
+  favicon: img/Deltaline Logo Release V3 (8144 Resize).ico
+  icon: 
+    repo: fontawesome/brands/github
+  logo: img/Deltaline Logo Release V3 (8144 Resize).ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  primary: black
+  accent: pink
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+  markdown_extensions:
+  - toc:
+      permalink: true
 repo_url: https://github.com/No767/Project-Deltaline-Docs
+repo_name: Project Deltaline Docs
+edit_uri: tree/master/docs
+plugins:
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      type: date
 nav: 
   - Home: index.md
   - Contributing: 

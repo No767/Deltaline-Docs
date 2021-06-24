@@ -1,8 +1,8 @@
-# Project Deltaline Documentation
+# Deltaline Documentation
 
 ## Introduction
 
-Welcome to the Project Delatline Documentation. This serves as the offical documentation for Project Deltaline, and is available on GitHub. The docs is spilt into these pages here
+Welcome to the Project Deltaline Documentation. This serves as the offical documentation for Project Deltaline, and is available on GitHub. The docs is spilt into these pages here
 
 ### Contributing
 
