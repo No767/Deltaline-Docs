@@ -1,5 +1,5 @@
 # Art Assets
- **This page provides the terms and conditions under which you may use the logo and any other art assets provided in this project. By using it, you are agreeing that you will follow the guidelines set here.** 
+**This page provides the terms and conditions under which you may use the logo and any other art assets provided in this project. By using it, you are agreeing that you will follow the guidelines set here.**
 
 You may: 
 
