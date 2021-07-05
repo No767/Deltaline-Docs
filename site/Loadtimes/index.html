@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>About Project Deltaline - Deltaline Docs</title>
+  <title>Issues with the Digital Portfolio - Deltaline Docs</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "About Project Deltaline";
-    var mkdocs_page_input_path = "About Project Deltaline.md";
+    var mkdocs_page_name = "Issues with the Digital Portfolio";
+    var mkdocs_page_input_path = "Loadtimes.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -59,8 +59,16 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Issues with the Digital Portfolio</span></p>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../Loadtimes/">Issues with the Digital Portfolio</a>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Issues with the Digital Portfolio</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#loading-times">Loading Times</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-the-website-looks">How the Website Looks</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#optimizations">Optimizations</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">Terms and Conditions</span></p>
@@ -69,12 +77,8 @@
                     </li>
                 </ul>
                 <p class="caption"><span class="caption-text">About</span></p>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">About Project Deltaline</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#issues-with-the-digital-portfolio">Issues with the Digital Portfolio</a>
-    </li>
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../About%20Project%20Deltaline/">About Project Deltaline</a>
                     </li>
                 </ul>
       </div>
@@ -98,14 +102,14 @@
     
       
         
-          <li>About &raquo;</li>
+          <li>Issues with the Digital Portfolio &raquo;</li>
         
       
     
-    <li>About Project Deltaline</li>
+    <li>Issues with the Digital Portfolio</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/No767/Project-Deltaline-Docs/tree/main/docs/About Project Deltaline.md"> Edit on Deltaline Docs</a>
+        <a href="https://github.com/No767/Project-Deltaline-Docs/tree/main/docs/Loadtimes.md"> Edit on Deltaline Docs</a>
       
     </li>
   </ul>
@@ -115,11 +119,19 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="about-deltaline">About  Deltaline</h1>
-<p>Deltaline is basically the name for my digital portfolio, which is needed in school. I have written this docs out to lay the basic framework that the digital portfolio contains</p>
-<h3 id="issues-with-the-digital-portfolio">Issues with the Digital Portfolio</h3>
-<p>The digital portfolio (Project Deltaline) is hosted on Google Sites. Now, it's meant as a static webpage, but when you add tons of hd assets, and tons of iframes and html code; it starts to lag. 
-This is due to Google's Sites inefficient loading speeds and useless JS code. And the litmiations that google sites has doesn't allow me to use the Bootstrap lib, or use .svg or .webp files for faster load times. For more detail, please look at Issues with the Digital Portfolio page</p>
+                <h1 id="issues-with-the-digital-portfolio">Issues with the Digital Portfolio</h1>
+<p>The whole reason why I decided to recode Deltaline in HTML was mainly because I already knew how to do code in HTML, and in Python. Soon I will be moving it to Vue.js and/or Django (to hopefully to use python as well). The Google Sites version has some major issues, and mostly regarding load times. </p>
+<h2 id="loading-times">Loading Times</h2>
+<p><img alt="" src="../img/test2.png" /></p>
+<p><em>Lighthouse Test on the Google Sites version (the home page)</em></p>
+<p><img alt="" src="../img/test1.png" /></p>
+<p><em>Lighthouse Test on the self-made (hosted on Netifly) version (home page)</em></p>
+<p>As you can see, there is a massive improvement when it comes in loading times with the self-coded version. This was done on my laptop running the latest version of chrome and running Windows 10 Pro as well. All the conditions were the same when testing (the same chrome extensions, etc)</p>
+<p>This was one of the biggest reasons why I decided to make the website myself. Without Google's slow font api, and with full control over how I add images and other content, this allows for a lag-free experience. I'll try my best to reduce as much lag as possible.</p>
+<h2 id="how-the-website-looks">How the Website Looks</h2>
+<p>Google Sites is very basic in design; it was meant to be easily deployed without having to touch any of the HTML, CSS, PHP, JS, or .Net code and framework. And since it's very basic in design, it doesn't allow for much control and how the website is built. Essentially, it's just the worse version of wordpress. So I decided to just rewrite the whole entire thing from the start. </p>
+<h2 id="optimizations">Optimizations</h2>
+<p>Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support.</p>
               
             </div>
           </div>
@@ -127,8 +139,10 @@ This is due to Google's Sites inefficient loading speeds and useless JS code. An
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../Art%20Assets/" class="btn btn-neutral float-right" title="Art Assets">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../Art%20Assets/" class="btn btn-neutral" title="Art Assets"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../Contributing%20to%20Deltaline/" class="btn btn-neutral" title="Contributing to Deltaline"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -154,8 +168,10 @@ This is due to Google's Sites inefficient loading speeds and useless JS code. An
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../Art%20Assets/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../Contributing%20to%20Deltaline/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../Art%20Assets/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

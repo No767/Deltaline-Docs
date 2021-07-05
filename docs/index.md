@@ -6,8 +6,16 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 
 ### Contributing
 
-- [Contributing](https://no767.github.io/Project-Deltaline-Docs/Contributing/)
+- [Contributing to the Docs](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20the%20docs/)
+- [Contributing to Deltaline](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20Deltaline/)
 
+### Issues with the Digital Portfolio
+
+- [Issues with the Digital Portfolio](https://no767.github.io/Project-Deltaline-Docs/)
+
+### Terms and Conditions
+
+- [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
 ### About 
 
 - [About Project Deltaline](https://no767.github.io/Project-Deltaline-Docs/About%20Project%20Deltaline/)
