@@ -1,9 +1,11 @@
 site_name: Deltaline Docs
 theme:
   name: readthedocs
+  analytics:
+      gtag: G-9FPH1JDHS8
   favicon: img/favicon.ico
   icon: 
-    repo: fontawesome/brands/github
+  repo: fontawesome/brands/github
   logo: img/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -41,6 +43,8 @@ nav:
   - Contributing: 
     - 'Contributing to the Docs': 'Contributing to the docs.md'
     - 'Contributing to Deltaline': 'Contributing to Deltaline.md'
+  - How It Works: 
+    - 'Structure Layout': 'Structure Layout.md'
   - Issues with the Digital Portfolio:
     - 'Issues with the Digital Portfolio': 'Issues With the Digital Portfolio.md'
   - Terms and Conditions:
