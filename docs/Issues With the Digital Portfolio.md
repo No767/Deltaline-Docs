@@ -22,4 +22,15 @@ Google Sites is very basic in design; it was meant to be easily deployed without
 
 ## Optimizations
 
-Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support.
+Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support. Since Seesaw doesn't have an api, I'm stuck with using iFrames in order to get it to work (or embed videos). The PageSpeed score isn't that good, but it seems like it loads a lot faster compared to the google site version 
+
+Timings: 
+
+- Google Sites Version - ~ 30 secs
+- Deltaline - ~ 8 secs 
+
+The times are the ones that load the first seesaw iframe. 
+
+## Possible Optimizations 
+
+- Switch to Vue.js 
