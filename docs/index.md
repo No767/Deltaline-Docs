@@ -11,7 +11,7 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 
 ## How It Works 
 
--[Structure Layout](https://no767.github.io/Project-Deltaline-Docs/Structure%20Layout/)
+- [Structure Layout](https://no767.github.io/Project-Deltaline-Docs/Structure%20Layout/)
 ### Issues with the Digital Portfolio
 
 - [Issues with the Digital Portfolio](https://no767.github.io/Project-Deltaline-Docs/)

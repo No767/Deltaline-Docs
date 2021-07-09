@@ -5,6 +5,7 @@ theme:
       gtag: G-9FPH1JDHS8
   favicon: img/favicon.ico
   icon: 
+  repo: fontawesome/brands/github
   logo: img/favicon.ico
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -31,7 +32,6 @@ markdown_extensions:
 repo_url: https://github.com/No767/Project-Deltaline-Docs
 repo_name: Deltaline Docs
 edit_uri: https://github.com/No767/Project-Deltaline-Docs/tree/main/docs
-repo: fontawesome/brands/github
 plugins:
   - search:
       lang: en
