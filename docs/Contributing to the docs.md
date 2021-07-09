@@ -21,6 +21,7 @@ myst-parser==0.14.0
 mkdocs-material==7.1.5
 mkdocs-material-extensions==1.0.1
 mkdocs-rtd-dropdown==1.0.2
+mkdocs-git-revision-date-localized-plugin==0.9.2
 ```
 
 1. cd to the folder that you want it to have the docs in and run `git clone https://github.com/No767/Project-Deltaline-Docs.git` 
