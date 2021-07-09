@@ -9,7 +9,7 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 - [Contributing to the Docs](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20the%20docs/)
 - [Contributing to Deltaline](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20Deltaline/)
 
-## How It Works 
+### How It Works 
 
 - [Structure Layout](https://no767.github.io/Project-Deltaline-Docs/Structure%20Layout/)
 ### Issues with the Digital Portfolio
