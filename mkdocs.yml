@@ -32,6 +32,7 @@ markdown_extensions:
 repo_url: https://github.com/No767/Project-Deltaline-Docs
 repo_name: Deltaline Docs
 edit_uri: https://github.com/No767/Project-Deltaline-Docs/tree/main/docs
+site_url: https://github.com/No767/Project-Deltaline-Docs
 plugins:
   - search:
       lang: en
@@ -39,7 +40,8 @@ plugins:
       type: date
 
 nav: 
-  - Home: index.md
+  - Home: 
+    - 'Home': 'index.md'
   - Contributing: 
     - 'Contributing to the Docs': 'Contributing to the docs.md'
     - 'Contributing to Deltaline': 'Contributing to Deltaline.md'
