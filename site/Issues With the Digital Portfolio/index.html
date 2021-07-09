@@ -73,6 +73,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#optimizations">Optimizations</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#possible-optimizations">Possible Optimizations</a>
+    </li>
     </ul>
                     </li>
                 </ul>
@@ -136,7 +138,17 @@
 <h2 id="how-the-website-looks">How the Website Looks</h2>
 <p>Google Sites is very basic in design; it was meant to be easily deployed without having to touch any of the HTML, CSS, PHP, JS, or .Net code and framework. And since it's very basic in design, it doesn't allow for much control and how the website is built. Essentially, it's just the worse version of wordpress. So I decided to just rewrite the whole entire thing from the start. </p>
 <h2 id="optimizations">Optimizations</h2>
-<p>Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support.</p>
+<p>Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support. Since Seesaw doesn't have an api, I'm stuck with using iFrames in order to get it to work (or embed videos). The PageSpeed score isn't that good, but it seems like it loads a lot faster compared to the google site version </p>
+<p>Timings: </p>
+<ul>
+<li>Google Sites Version - ~ 30 secs</li>
+<li>Deltaline - ~ 8 secs </li>
+</ul>
+<p>The times are the ones that load the first seesaw iframe. </p>
+<h2 id="possible-optimizations">Possible Optimizations</h2>
+<ul>
+<li>Switch to Vue.js </li>
+</ul>
               
             </div>
           </div>

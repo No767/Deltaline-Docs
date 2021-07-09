@@ -34,3 +34,4 @@ The times are the ones that load the first seesaw iframe.
 ## Possible Optimizations 
 
 - Switch to Vue.js 
+- Text compression

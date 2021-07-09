@@ -31,7 +31,7 @@ Please make sure that the code is readable and clean. for example,
   <head><meta name="viewport" content ="width=device-width, initial-scale=1, user-scalable=yes" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" type="image/jpg" href="Dcey SMP Logo V4 Release.webp"/>
+<link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
 <title>Deltaline</title>
 </head>
 
@@ -45,7 +45,7 @@ Please make sure that the code is readable and clean. for example,
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/jpg" href="Dcey SMP Logo V4 Release.webp"/>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico"/>
     <title>Deltaline</title>
 
 ```
