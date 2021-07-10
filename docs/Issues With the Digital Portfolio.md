@@ -22,7 +22,7 @@ Google Sites is very basic in design; it was meant to be easily deployed without
 
 ## Optimizations
 
-Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support. Since Seesaw doesn't have an api, I'm stuck with using iFrames in order to get it to work (or embed videos). The PageSpeed score isn't that good, but it seems like it loads a lot faster compared to the google site version 
+Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support. Since Seesaw doesn't have an api, I'm stuck with using iFrames in order to get it to work (or embed videos). The PageSpeed score isn't that good, but it seems like it loads a lot faster compared to the google site version. This site heavily depends on caching and minifying HTML files in order to load faster
 
 Timings: 
 
@@ -33,5 +33,13 @@ The times are the ones that load the first seesaw iframe.
 
 ## Possible Optimizations 
 
-- Switch to Vue.js 
+- Switch to Vue.js, React.js, Node.js, etc
 - Text compression
+- Python / Django web app instead of HTML + CSS
+- Redis Cache
+- Send everything to a MySQL database for search and other stuff
+- Change all CSS files to SCSS
+- if self hosting, switch to using Nginx or Apache instead
+
+## Possible Addtions
+- Search Function (MySQL + Apache Lucene + Docker)

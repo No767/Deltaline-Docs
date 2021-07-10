@@ -11,7 +11,7 @@ Just make sure to:
 
 ## Getting Started
 
-Dependencies: Python 3, Mkdocs, and Pip
+Dependencies: Python 3 (3.6 and above), Mkdocs, and Pip
 
 Dependcies List: 
 ``` 
@@ -24,9 +24,12 @@ mkdocs-rtd-dropdown==1.0.2
 mkdocs-git-revision-date-localized-plugin==0.9.2
 ```
 
-1. cd to the folder that you want it to have the docs in and run `git clone https://github.com/No767/Project-Deltaline-Docs.git` 
+1. First install mkdocs by running `pip install mkdocs`
 
-2. Edit the files as needed and if you want to check how it looks, run `mkdocs serve`
+2. cd to the folder that you want it to have the docs in and run `git clone https://github.com/No767/Project-Deltaline-Docs.git` 
 
-3. Once it's all done, deploy it to GitHub Pages by using `mkdocs gh-deploy`
+3. run `pip install [insert dependency name here]` in order to install the dependency within the reequirements.txt file
+4. Edit the files as needed and if you want to check how it looks, run `mkdocs serve`
+
+5. Once it's all done, deploy it to GitHub Pages by using `mkdocs gh-deploy`
 
