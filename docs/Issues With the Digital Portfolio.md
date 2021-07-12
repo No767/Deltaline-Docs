@@ -20,6 +20,9 @@ This was one of the biggest reasons why I decided to make the website myself. Wi
 
 Google Sites is very basic in design; it was meant to be easily deployed without having to touch any of the HTML, CSS, PHP, JS, or .Net code and framework. And since it's very basic in design, it doesn't allow for much control and how the website is built. Essentially, it's just the worse version of wordpress. So I decided to just rewrite the whole entire thing from the start. 
 
+## The Problem with Deltaline 
+
+The point is to have a fully optimizted site, where things load in much quicker. It's actually done it's job, but the one big issue is regarding the load times of the SeeSaw iFrames. This is what's causing the lag. SeeSaw doesn't have any API's or REST APIs that I can intergrate into, but maybe python's asyncio (or known as async await) might be able to help
 ## Optimizations
 
 Google Sites only accepts .png, .jpg, and .gif image files. Nothing else. This isn't good for a website where it needs to load in HD assets, and takes a toll on Google Sites. With Netifly, it allows for compression and combined with Cloudflare, it allows for a very fast loading experience. In order to optimize the website, I used only svg files in order to reduce loading times, and mainly used the Bootstrap lib for mobile support. Since Seesaw doesn't have an api, I'm stuck with using iFrames in order to get it to work (or embed videos). The PageSpeed score isn't that good, but it seems like it loads a lot faster compared to the google site version. This site heavily depends on caching and minifying HTML files in order to load faster
@@ -37,9 +40,9 @@ The times are the ones that load the first seesaw iframe.
 - Text compression
 - Python / Django web app instead of HTML + CSS
 - Redis Cache
-- Send everything to a MySQL database for search and other stuff
+- Send everything to a MySQL database for search and other stuff (or NoSQL instead...)
 - Change all CSS files to SCSS
 - if self hosting, switch to using Nginx or Apache instead
 
 ## Possible Addtions
-- Search Function (MySQL + Apache Lucene + Docker)
+- Search Function (MySQL + Apache Lucene)

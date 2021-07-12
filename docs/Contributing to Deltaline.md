@@ -9,7 +9,7 @@ Well it's already listed in the repo, but here's the [contributing](https://gith
 ### Git Commit Messages
 
 - Describe what is the change (branch change, clean up code, etc)
-- If it's updating the other files (that dont have to go through the CI), add a [ci skip] label in the front of the commit message or use [skip ci] or [skip netlify] so netlify won't try and build and deploy it and give the "failed" rating on the badge
+- If it's updating the other files (that dont have to go through the CI), add a [ci skip] label in the front of the commit message or use [skip ci] or [skip netlify] so netlify won't try and build and deploy it and give the "failed" rating on the badge (and waste build time...)
 
 ### Issues
 
