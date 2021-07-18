@@ -46,3 +46,6 @@ The times are the ones that load the first seesaw iframe.
 
 ## Possible Addtions
 - Search Function (MySQL + Apache Lucene)
+
+## Plans 
+- Start rewriting the whole digital portfolio to use Django 3.2.5 and grab all libs for it

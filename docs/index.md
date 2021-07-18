@@ -19,6 +19,7 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 ### Terms and Conditions
 
 - [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
+- [Licensing](https://no767.github.io/Deltaline-Docs/Licensing/)
 ### About 
 
 - [About Project Deltaline](https://no767.github.io/Project-Deltaline-Docs/About%20Project%20Deltaline/)
