@@ -1,5 +1,5 @@
 # Contributing to Deltaline 
-Deltaline is completely open source, licensed under the GPL-3.0 License. Currently, it's written in HTML, but I plan to rewrite it in Vue.js later on. The Logo is licensed under the CC-BY-ND-NC 4.0 License, and can be found [here](https://github.com/No767/Logo-Favicon). All other works within Deltaline are all rights reserved. 
+Deltaline is completely open source, licensed under the GPL-3.0 License. Currently, it's written in HTML, but I plan to rewrite it in Python/Django later on. The Logo is licensed under the CC-BY-ND-NC 4.0 License, and can be found [here](https://github.com/No767/Logo-Favicon). All other works within Deltaline are all rights reserved. 
 
 **So, how do you contribute?**
 Well it's already listed in the repo, but here's the [contributing](https://github.com/No767/Deltaline/blob/master/contributing.md) guidelines
@@ -52,3 +52,12 @@ Please make sure that the code is readable and clean. for example,
 this one is too messy and it's kinda hard to read
 
 **Long story short**: Just make it easy to read
+
+# Dependencies
+
+This repo will start using the Django Framework to make things... faster and more smoother to say the least. The requirements are listed below:
+
+- Python 3 (Devloped in Python 3.9.6)
+- Django 3.2.5 LTS (should be already listed within the requirements.txt as a lib)
+- Pip (comes bundled with Python 3)
+- (*optionally*) An IDE like VS Code or PyCharm

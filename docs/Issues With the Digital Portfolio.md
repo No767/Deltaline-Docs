@@ -36,13 +36,13 @@ The times are the ones that load the first seesaw iframe.
 
 ## Possible Optimizations 
 
-- Switch to Vue.js, React.js, Node.js, etc
 - Text compression
 - Python / Django web app instead of HTML + CSS
 - Redis Cache
 - Send everything to a MySQL database for search and other stuff (or NoSQL instead...)
 - Change all CSS files to SCSS
 - if self hosting, switch to using Nginx or Apache instead
+- use NoSQL instead (MongoDB, Firebase, etc)
 
 ## Possible Addtions
 - Search Function (MySQL + Apache Lucene)
