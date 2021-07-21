@@ -6,22 +6,23 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 
 ### Contributing
 
-- [Contributing to the Docs](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20the%20docs/)
-- [Contributing to Deltaline](https://no767.github.io/Project-Deltaline-Docs/Contributing%20to%20Deltaline/)
+- [Contributing to the Docs](https://no767.github.io/Deltaline-Docs/Contributing%20to%20the%20docs/)
+- [Contributing to Deltaline](https://no767.github.io/Deltaline-Docs/Contributing%20to%20Deltaline/)
 
 ### How It Works 
 
-- [Structure Layout](https://no767.github.io/Project-Deltaline-Docs/Structure%20Layout/)
+- [Structure Layout](https://no767.github.io/Deltaline-Docs/Structure%20Layout/)
+- [Django Framework]
 ### Issues with the Digital Portfolio
 
-- [Issues with the Digital Portfolio](https://no767.github.io/Project-Deltaline-Docs/)
+- [Issues with the Digital Portfolio](https://no767.github.io/Deltaline-Docs/)
 
 ### Terms and Conditions
 
-- [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
+- [Art Assets](https://no767.github.io/Deltaline-Docs/Art%20Assets/)
 - [Licensing](https://no767.github.io/Deltaline-Docs/Licensing/)
 ### About 
 
-- [About Project Deltaline](https://no767.github.io/Project-Deltaline-Docs/About%20Project%20Deltaline/)
+- [About Project Deltaline](https://no767.github.io/Deltaline-Docs/About%20Project%20Deltaline/)
 
-- [Art Assets](https://no767.github.io/Project-Deltaline-Docs/Art%20Assets/)
+- [Art Assets](https://no767.github.io/Deltaline-Docs/Art%20Assets/)
