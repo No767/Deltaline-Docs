@@ -11,8 +11,8 @@ Welcome to the Deltaline Documentation. This serves as the offical documentation
 
 ### How It Works 
 
+- [Django Framework](https://no767.github.io/Deltaline-Docs/Django%20Framework/)
 - [Structure Layout](https://no767.github.io/Deltaline-Docs/Structure%20Layout/)
-- [Django Framework]
 ### Issues with the Digital Portfolio
 
 - [Issues with the Digital Portfolio](https://no767.github.io/Deltaline-Docs/)

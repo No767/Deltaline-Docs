@@ -33,7 +33,7 @@ repo_name: Deltaline Docs
 edit_uri: https://github.com/No767/Deltaline-Docs/tree/main/docs
 site_url: https://github.com/No767/Deltaline-Docs
 analytics:
-  gtag: G-9FPH1JDHS8
+      gtag: G-9FPH1JDHS8
 plugins:
   - search:
       lang: en
