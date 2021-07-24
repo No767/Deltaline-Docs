@@ -57,7 +57,10 @@ this one is too messy and it's kinda hard to read
 
 This repo will start using the Django Framework to make things... faster and more smoother to say the least. The requirements are listed below:
 
-- Python 3 (Devloped in Python 3.9.6)
+- Python 3.6 and above (Devloped in Python 3.9.6)
 - Django 3.2.5 LTS (should be already listed within the requirements.txt as a lib)
 - Pip (comes bundled with Python 3)
-- (*optionally*) An IDE like VS Code or PyCharm
+- (*optional*) An IDE like VS Code or PyCharm
+- Yarn or npm 
+- Bootstrap
+- Material Icons`
