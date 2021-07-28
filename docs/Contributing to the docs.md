@@ -28,7 +28,7 @@ mkdocs-git-revision-date-localized-plugin==0.9.2
 
 2. cd to the folder that you want it to have the docs in and run `git clone https://github.com/No767/Project-Deltaline-Docs.git` 
 
-3. run `pip install [insert dependency name here]` in order to install the dependency within the reequirements.txt file
+3. run `pip install -r requirements.txt` in order to install the dependency within the reequirements.txt file
 
 4. Edit the files as needed and if you want to check how it looks, run `mkdocs serve`
 

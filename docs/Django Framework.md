@@ -1,6 +1,3 @@
 # Django Framework
 
 Deltaline uses Django in order to make thing go a lot faster, and add in features that something like JS or React would have. Django is a lib written in Python designed to accelerate loading speeds, and be secure and scalable. This allows me or any other contributer to add in features like a comment section, animations, and a ton more. I have been learning Python, since this language can be used from Discord Bots (making one rn, which is the Rin bot), machine learning and AI, to webapps like these.
-
-## Getting started
-If you want to contribute, you will need Python 3 (Made in Python 3.9.6), pip, and Django. Even though it's already listed within Deltaline's requirements.txt, you might want to install it first (might not be needed). The main root repo for it is the folder named "Django", and the Deltaline folder contains the main content (notice that i hid the settings.py file and it's not tracked on git). The src folder contains the main bulk of the webapp. Django can be used with MySQL, which I regularly use and deploy for my other servers, but stick to SQLite for the time being. 
