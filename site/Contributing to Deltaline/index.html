@@ -65,17 +65,15 @@
                     </li>
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Contributing to Deltaline</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#styleguides">Styleguides</a>
+    <li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#getting-started">Getting Started</a>
         <ul>
-    <li class="toctree-l3"><a class="reference internal" href="#git-commit-messages">Git Commit Messages</a>
+    <li class="toctree-l3"><a class="reference internal" href="#front-end-html-css">Front End (HTML + CSS)</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#issues">Issues</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#pull-requests">Pull Requests</a>
+    <li class="toctree-l3"><a class="reference internal" href="#back-end-pythondjango">Back End (Python/Django)</a>
     </li>
         </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#code-styleguides">Code Styleguides</a>
     </li>
     </ul>
                     </li>
@@ -151,59 +149,24 @@
                 <h1 id="contributing-to-deltaline">Contributing to Deltaline</h1>
 <p>Deltaline is completely open source, licensed under the GPL-3.0 License. Currently, it's written in HTML, but I plan to rewrite it in Python/Django later on. The Logo is licensed under the CC-BY-ND-NC 4.0 License, and can be found <a href="https://github.com/No767/Logo-Favicon">here</a>. All other works within Deltaline are all rights reserved. </p>
 <p><strong>So, how do you contribute?</strong>
-Well it's already listed in the repo, but here's the <a href="https://github.com/No767/Deltaline/blob/master/contributing.md">contributing</a> guidelines</p>
-<h2 id="styleguides">Styleguides</h2>
-<h3 id="git-commit-messages">Git Commit Messages</h3>
-<ul>
-<li>Describe what is the change (branch change, clean up code, etc)</li>
-<li>If it's updating the other files (that dont have to go through the CI), add a [ci skip] label in the front of the commit message or use [skip ci] or [skip netlify] so netlify won't try and build and deploy it and give the "failed" rating on the badge (and waste build time...)</li>
-</ul>
-<h3 id="issues">Issues</h3>
-<ul>
-<li>Add a label</li>
-<li>Use one of the templates that is available</li>
-</ul>
-<h3 id="pull-requests">Pull Requests</h3>
-<ul>
-<li>Describe the change (issue fix, clean up code, etc)</li>
-<li>When doing a pull request, make sure the pull request goes into the dev branch</li>
-<li>And dont delete the dev branch</li>
-<li>List the branch, and the commit number starting from the most recent commit</li>
-</ul>
-<h2 id="code-styleguides">Code Styleguides</h2>
-<p>Please make sure that the code is readable and clean. for example, </p>
-<pre><code>
-  &lt;head&gt;&lt;meta name=&quot;viewport&quot; content =&quot;width=device-width, initial-scale=1, user-scalable=yes&quot; /&gt;
-    &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x&quot; crossorigin=&quot;anonymous&quot;&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-&lt;link rel=&quot;shortcut icon&quot; type=&quot;image/jpg&quot; href=&quot;favicon.ico&quot;/&gt;
-&lt;title&gt;Deltaline&lt;/title&gt;
-&lt;/head&gt;
-
-</code></pre>
-<p>(proper example) This is a proper way to do it. But for example, </p>
-<pre><code>
-    &lt;meta charset=&quot;utf-8&quot;&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-    &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x&quot; crossorigin=&quot;anonymous&quot;&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
-    &lt;link rel=&quot;shortcut icon&quot; type=&quot;image/jpg&quot; href=&quot;favicon.ico&quot;/&gt;
-    &lt;title&gt;Deltaline&lt;/title&gt;
-
-</code></pre>
-<p>this one is too messy and it's kinda hard to read</p>
-<p><strong>Long story short</strong>: Just make it easy to read</p>
-<h1 id="dependencies">Dependencies</h1>
+Check out the <a href="https://github.com/No767/Deltaline/blob/master/contributing.md">contributing</a> guidelines on the deltaline repo</p>
+<h2 id="dependencies">Dependencies</h2>
 <p>This repo will start using the Django Framework to make things... faster and more smoother to say the least. The requirements are listed below:</p>
 <ul>
 <li>Python 3.6 and above (Devloped in Python 3.9.6)</li>
 <li>Django 3.2.5 LTS (should be already listed within the requirements.txt as a lib)</li>
 <li>Pip (comes bundled with Python 3)</li>
-<li>(<em>optional</em>) An IDE like VS Code or PyCharm</li>
 <li>Yarn or npm </li>
 <li>Bootstrap</li>
 <li>Material Icons</li>
+<li>(<em>optional</em>) An IDE like VS Code or PyCharm. This will make things a lot easier to work with.</li>
 </ul>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="front-end-html-css">Front End (HTML + CSS)</h3>
+<p>You will need to know how to code in HTML + CSS, since the website is coded that way. Also make sure that you know how to use the <a href="https://getbootstrap.com/">Bootstrap Lib</a> as well. If not, read the docs for Bootstrap. The first thing you would want to do is to clone this repo. This can be done with <code>git clone https://github.com/No767/Deltaline.git</code>. The main folder that contain the files which will be deployed (with Netilfy) is the /site directory. The /dockersite is meant for the docker version of this site. If you want to use docker instead, you can find the docker image on the <a href="https://hub.docker.com/repository/docker/no767/deltaline">Docker Registry</a> or on the <a href="https://github.com/No767/Deltaline/pkgs/container/deltaline">GitHub Registry</a>. Use the GitHub Registry if you want it to be more up to date, since each commit will also get sent through a Docker CI in order to build + deploy it. Most of the dependcies are already installed using CDNs within the files themselves, but if you want, make sure that you have Yarn installed and run <code>yarn install</code> on the root directory. This will installed all of the libs as needed. </p>
+<p>Make the changes that you see fit (remember, the actual works are all rights reserved), and make a pr to the master branch. Once it is reviwed, it's probably going to get merged and the CI servers will start kicking in. </p>
+<h3 id="back-end-pythondjango">Back End (Python/Django)</h3>
+<p>The Django Framework was made in Python 3.9.6, but use versions 3.6 or higher. Make sure you also have pip installed, and Django as well. The older versions like 2.7 don't get support. Within the root directory, you will noticed that there is a folder named "Django". That's the Django root directory. If you want to start up the sever, cd to that folder and run <code>python manage.py runserver</code>. This is meant mostly for local testing. Now, as with any Django project, the settings are tucked away within the Deltaline folder, and the views and models are within the src folder. As of right now, I've still trying to figure out how to get it working. As of now, use SQLite3 for the db storage, but you can use MySQL or PostgreSQL if you would like.</p>
               
             </div>
           </div>
