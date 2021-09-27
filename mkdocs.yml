@@ -16,8 +16,7 @@ repo_url: https://github.com/No767/Deltaline-Docs
 repo_name: GitHub
 edit_uri: blob/master/docs/
 nav: 
-  - Home: 
-    - 'Home': 'index.md'
+  - 'Home': 'index.md'
   - Contributing: 
     - 'Contributing to the Docs': 'Contributing to the docs.md'
     - 'Contributing to Deltaline': 'Contributing to Deltaline.md'
