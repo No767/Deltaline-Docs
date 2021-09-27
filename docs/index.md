@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Welcome to the Deltaline Documentation. This serves as the offical documentation for Deltaline, and is available on GitHub. The docs is spilt into these pages here
+Welcome to the Deltaline Documentation. This serves as the official documentation for Deltaline, and is available on GitHub. The docs is spilt into these pages here
 
 ### Contributing
 
