@@ -4,7 +4,8 @@
 
 <img src="assets/Deltaline Logo Release V3 (512 Resize).svg">
 
-<img alt="GitHub" src="https://img.shields.io/github/license/No767/Project-Deltaline-Docs">
+![Read the Docs](https://img.shields.io/readthedocs/deltaline-docs?logo=readthedocs) ![GitHub](https://img.shields.io/github/license/No767/Deltaline-Docs?label=License&logo=github)
+
 
 Documentation for Deltaline
 
