@@ -5,12 +5,12 @@ The whole reason why I decided to recode Deltaline in HTML was mainly because I 
 
 ![](img/test2.png)
 
-*Lighthouse Test on the Google Sites version (the home page)*
+*Lighthouse Test on the Google Sites version (the jpn page)*
 
 ![](img/test1.png)
 
 
-*Lighthouse Test on the self-made (hosted on Netifly) version (home page)*
+*Lighthouse Test on the self-made (hosted on Netifly) version (jpn page)*
 
 As you can see, there is a massive improvement when it comes in loading times with the self-coded version. This was done on my laptop running the latest version of chrome and running Windows 10 Pro as well. All the conditions were the same when testing (the same chrome extensions, etc)
 
