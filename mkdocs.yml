@@ -1,44 +1,20 @@
 site_name: Deltaline Docs
+
 theme:
   name: readthedocs
-  analytics:
-    gtag: G-9FPH1JDHS8
-  favicon: img/favicon.ico
-  icon: 
-  repo: fontawesome/brands/github
-  logo: img/favicon.ico
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
-  primary: black
-  accent: pink
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-  markdown_extensions:
-  - toc:
-      permalink: true
-markdown_extensions:
-  - attr_list
-repo_url: https://github.com/No767/Deltaline-Docs
-repo_name: Deltaline Docs
-edit_uri: https://github.com/No767/Deltaline-Docs/tree/main/docs
-site_url: https://github.com/No767/Deltaline-Docs
+
 plugins:
   - search:
-      lang: en
-  - git-revision-date-localized:
-      type: date
+      lang: 
+        - en
 
+markdown_extensions:
+    - toc:
+        permalink: True
+
+repo_url: https://github.com/No767/Deltaline-Docs
+repo_name: GitHub
+edit_uri: blob/master/docs/
 nav: 
   - Home: 
     - 'Home': 'index.md'
