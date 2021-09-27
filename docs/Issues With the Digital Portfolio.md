@@ -3,11 +3,11 @@ The whole reason why I decided to recode Deltaline in HTML was mainly because I 
 
 ## Loading Times
 
-![](img/test2.png)
+![](img/test1.png)
 
 *Lighthouse Test on the Google Sites version (the jpn page)*
 
-![](img/test1.png)
+![](img/test2.png)
 
 
 *Lighthouse Test on the self-made (hosted on Netifly) version (jpn page)*
